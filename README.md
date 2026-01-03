@@ -177,4 +177,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Built with ❤️ by [Uwamahoro Enock](https://github.com/leny62/)
+Built with ❤️ by [Uwamahoro Enock](https://github.com/Euwamahoro/)
