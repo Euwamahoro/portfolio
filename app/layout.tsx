@@ -4,9 +4,9 @@ import Layout from './components/layout/Layout';
 import { ThemeProvider } from './components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: "Leny Pascal IHIRWE | Software Engineer & Creative Technologist",
-  description: "Personal portfolio of Leny Pascal IHIRWE, a Software Engineer specializing in Full-Stack Development, Web3, and Creative Technology.",
-  keywords: "Leny Pascal IHIRWE, Software Engineer, Full-Stack Developer, Web3, Protocol Labs, Next.js, React, .NET",
+  title: "Enock Uwamahoro | Software Engineer & Creative Technologist",
+  description: "Personal portfolio of Enock Uwamahoro, a Software Engineer specializing in Full-Stack Development, Web3, and Creative Technology.",
+  keywords: "Enock Uwamahoro, Software Engineer, Full-Stack Developer, Web3, Protocol Labs, Next.js, React, .NET",
 };
 
 export default function RootLayout({
