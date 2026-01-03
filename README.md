@@ -2,7 +2,7 @@
 
 A retro arcade-themed portfolio website built with Next.js, featuring a dark/light mode toggle, CRT effects, and responsive design.
 
-![Arcade Portfolio](https://github.com/leny62/personal-arcade-portfolio/raw/main/public/preview.png)
+![Arcade Portfolio](https://github.com/Euwamahoro/portfolio/raw/main/public/preview.png)
 
 ## ✨ Features
 
