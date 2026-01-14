@@ -7,10 +7,8 @@ import {
   FaDatabase, 
   FaServer, 
   FaTools, 
-  FaCloud, 
   FaMobileAlt, 
   FaDesktop, 
-  FaLaptopCode 
 } from 'react-icons/fa';
 
 // Skill categories with their respective skills

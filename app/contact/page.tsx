@@ -6,7 +6,6 @@ import {
   FaEnvelope,
   FaLinkedin,
   FaGithub,
-  FaTwitter,
   FaMapMarkerAlt,
   FaPaperPlane,
   FaGamepad,
