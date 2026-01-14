@@ -9,7 +9,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <FaGithub />, url: 'https://github.com/Euwamahoro', label: 'GitHub' },
     { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/uwamahoro-enock', label: 'LinkedIn' },
-    { icon: <FaEnvelope />, url: 'mailto:enockdev01@gmail.com', label: 'Email' },
+    { icon: <FaEnvelope />, url: 'enockdev01@gmail.com', label: 'Email' },
   ];
 
   return (
