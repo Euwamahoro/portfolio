@@ -35,19 +35,41 @@ export default function ContactPage() {
     e.preventDefault();
     setFormStatus("submitting");
 
-    setTimeout(() => {
-      setFormStatus("success");
-      setFormState({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
+    const formData = new FormData(e.target as HTMLFormElement);
+    formData.append("access_key", process.env.KEY || "");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
       });
 
+      const data = await response.json();
+
+      if (data.success) {
+        setFormStatus("success");
+        setFormState({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+
+        setTimeout(() => {
+          setFormStatus("idle");
+        }, 3000);
+      } else {
+        setFormStatus("error");
+        setTimeout(() => {
+          setFormStatus("idle");
+        }, 3000);
+      }
+    } catch (error) {
+      setFormStatus("error");
       setTimeout(() => {
         setFormStatus("idle");
       }, 3000);
-    }, 1500);
+    }
   };
 
   const contactMethods = [
