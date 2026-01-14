@@ -8,83 +8,30 @@ const experiences = [
   {
     id: 1,
     title: "Software Engineer",
-    company: "Bouletteproof",
-    location: "Port-louis, Remote",
-    period: "August 2023 – present",
+    company: "Ironji",
+    location: "Rwanda, Remote",
+    period: "May 2023 – July 2025",
     achievements: [
-      "Engineering 'Tonza Deals,' a customer engagement and loyalty platform leveraging Next.js for the front-end, Nest.js for the back-end, PostgreSQL for database management, and Stripe for subscription services",
+      "Engineering 'Ironji Deals,' a customer engagement and loyalty platform leveraging Next.js for the front-end, Nest.js for the back-end, PostgreSQL for database management, and Stripe for subscription services",
       "Empowering brands to retarget, reward, and remarket to customers while improving marketing capabilities",
       "Developed a lead management SaaS using Next.js, Node.js, and GCP, resulting in streamlined lead conversion"
     ]
   },
   {
     id: 2,
-    title: "Open Source Contributor",
-    company: "Protocol Labs Dev Guild",
+    title: " Full-Stack Developer ",
+    company: "Freelance",
     location: "Remote",
     period: "January 2025 – present",
     achievements: [
-      "Developed a .NET 8 chat app on libp2p, enhancing cross-platform P2P communication with TCP/QUIC, PubSub messaging, and mDNS-based discovery across multiple languages",
-      "Engineered TypeScript tools to seamlessly migrate data from AWS S3 (and compatible services) to Storacha hot storage, implementing protocol compatibility and preserving UnixFS metadata"
+      "Currently developing Foster, a ride-sharing platform similar to VubaVuba for the Liberian market, focusing on localized features and user experience",
+      "Developed and deployed full-stack web applications for various clients, managing both frontend and backend components",
+      "Successfully deployed applications to Microsoft Azure using containerization, ensuring scalable and reliable hosting solutions",
+      "Collaborated with clients to gather requirements, design solutions, and deliver high-quality software products",
+      "Engineered TypeScript tools to seamlessly migrate data from AWS S3 (and compatible services) to Storacha hot storage, implementing protocol compatibility and preserving UnixFS metadata",
     ]
   },
-  {
-    id: 3,
-    title: "Frontend Developer",
-    company: "Just Slide Media",
-    location: "Los Angeles, California, United States",
-    period: "November 2022 – June 2024",
-    achievements: [
-      "Developed more than 50 distinctive marketing landing pages and websites tailored for diverse telecommunication and tech firms",
-      "Administered SEO analytics tools for multiple websites, fine-tuning their metadata to enhance search engine visibility and performance",
-      "Collaborated with brands including AKKO, Boost Mobile, Boost Infinite, OnTech Deals, Curbio, Lendingslide, Win The Showcase, and Polygraf AI"
-    ]
-  },
-  {
-    id: 4,
-    title: "Software Engineer",
-    company: "Objectivity",
-    location: "Coventry, England, Remote",
-    period: "February 2023 – August 2023",
-    achievements: [
-      "Engineered a cross-platform Hospitality EPoS, enabling complete Stock management and reporting with React Native and .NET"
-    ]
-  },
-  {
-    id: 5,
-    title: "Engineering Lead",
-    company: "Karisimbi Technology Solutions",
-    location: "Kigali, Rwanda",
-    period: "March 2022 – February 2023",
-    achievements: [
-      "Pioneered the development and successful deployment of a Diabetes Management Information System (MIS) used across all hospitals in Rwanda and serves over 1000 patients",
-      "Oversaw program verification and deployment, ensuring seamless operations",
-      "Led the development of an electronic medical records software that is used by over 30 clinics across Rwanda"
-    ]
-  },
-  {
-    id: 6,
-    title: "Technical Team Lead",
-    company: "Andela",
-    location: "Kigali, Rwanda",
-    period: "March 2022 – August 2022",
-    achievements: [
-      "Oversaw the work of trainees, ensuring high-quality work outputs",
-      "Coordinated daily SCRUM ceremonies and conducted standups, promoting efficient teamwork",
-      "Prepared demos with trainees and reported their performance, leading to the successful delivery of a real MVP project by a team of 15 software developers",
-      "Evaluated trainees based on learning outcomes, guiding their skill development"
-    ]
-  },
-  {
-    id: 7,
-    title: "AEM Developer",
-    company: "CodeLand S.r.I",
-    location: "Milan, Italy",
-    period: "November 2021 – February 2022",
-    achievements: [
-      "Enhanced the user and editor experience on the Unicredit Bank website using AEM (Adobe Experience Manager), Java, and XML"
-    ]
-  }
+  
 ];
 
 export default function ExperiencePage() {

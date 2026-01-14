@@ -67,36 +67,10 @@ const skillCategories = [
     color: 'neon-pink',
     skills: [
       { name: 'React Native', level: 80 },
+      { name: 'Flutter', level: 95 },
       { name: 'Expo', level: 75 },
       { name: 'Mobile UI Design', level: 70 },
       { name: 'App Performance', level: 65 },
-    ]
-  },
-  {
-    id: 'devops',
-    name: 'DevOps',
-    icon: <FaCloud className="text-2xl" />,
-    color: 'neon-yellow',
-    skills: [
-      { name: 'Docker', level: 80 },
-      { name: 'CI/CD', level: 75 },
-      { name: 'AWS', level: 70 },
-      { name: 'Azure', level: 65 },
-      { name: 'GCP', level: 60 },
-      { name: 'Kubernetes', level: 55 },
-    ]
-  },
-  {
-    id: 'web3',
-    name: 'Web3',
-    icon: <FaLaptopCode className="text-2xl" />,
-    color: 'neon-orange',
-    skills: [
-      { name: 'libp2p', level: 80 },
-      { name: 'IPFS', level: 75 },
-      { name: 'Filecoin', level: 70 },
-      { name: 'Ethereum', level: 65 },
-      { name: 'Smart Contracts', level: 60 },
     ]
   },
   {

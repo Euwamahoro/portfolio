@@ -15,48 +15,6 @@ import {
 // Project data
 const projects = [
   {
-    id: 1,
-    title: "Tonza Deals",
-    description: "A customer engagement and loyalty platform that empowers brands to retarget, reward, and remarket to customers while improving marketing capabilities.",
-    image: "/images/projects/tonza-deals.jpg",
-    tags: ["Next.js", "Nest.js", "PostgreSQL", "Stripe", "TypeScript"],
-    github: "",
-    liveUrl: "https://tonzadeals.com",
-    features: [
-      "Customer loyalty program management",
-      "Marketing campaign automation",
-      "Analytics dashboard",
-      "Subscription management via Stripe",
-      "Multi-tenant architecture"
-    ],
-    technologies: {
-      frontend: ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
-      backend: ["Nest.js", "PostgreSQL", "Prisma", "JWT Auth"],
-      devops: ["Docker", "GitHub Actions", "AWS"]
-    }
-  },
-  {
-    id: 2,
-    title: ".NET libp2p Chat",
-    description: "A cross-platform peer-to-peer chat application built on libp2p using .NET 8, enabling direct communication without centralized servers.",
-    image: "/images/projects/libp2p-chat.jpg",
-    tags: [".NET 8", "C#", "libp2p", "P2P", "IPFS"],
-    github: "https://github.com/leny62/universal-connectivity",
-    liveUrl: "",
-    features: [
-      "Direct peer-to-peer messaging",
-      "NAT traversal with AutoNAT",
-      "End-to-end encryption",
-      "Multi-platform support (Windows, macOS, Linux)",
-      "Offline message queueing"
-    ],
-    technologies: {
-      frontend: ["Blazor", "CSS", "SignalR"],
-      backend: [".NET 8", "C#", "libp2p", "Protocol Buffers"],
-      devops: ["GitHub Actions", "Docker"]
-    }
-  },
-  {
     id: 3,
     title: "Diabetes MIS",
     description: "A comprehensive Diabetes Management Information System used across all hospitals in Rwanda, serving over 1000 patients with tracking and reporting capabilities.",
@@ -78,28 +36,49 @@ const projects = [
     }
   },
   {
-    id: 4,
-    title: "S3 to Filecoin Migration Tool",
-    description: "A TypeScript utility for seamlessly migrating data from AWS S3 (and compatible services) to Filecoin storage while preserving metadata.",
-    image: "/images/projects/s3-filecoin.jpg",
-    tags: ["TypeScript", "Filecoin", "IPFS", "AWS S3", "Web3"],
-    github: "https://github.com/HarshS1611/storacha-migration-tool",
-    liveUrl: "",
+    id: 2,
+    title: "Ironji Internal operations Platforms",
+    description: "A comprehensive customer engagement and loyalty platform developed for Ironji, utilizing Next.js for the front-end, Nest.js for the back-end, PostgreSQL for database management, and Stripe for subscription services.",
+    image: "/images/projects/tonza-deals.jpg",
+    tags: ["Next.js", "Nest.js", "PostgreSQL", "Stripe", "TypeScript"],
+    github: "",
+    liveUrl: "https://ironji.com",
     features: [
-      "Batch migration of S3 objects",
-      "Metadata preservation",
-      "Progress tracking and resumability",
-      "Verification of stored data",
-      "CLI and programmatic API"
+      "Customer loyalty program management",
+      "Drivers and merchants dashboards",
+      "Analytics dashboard",
+      "Subscription management via Stripe",
+      "Responsive design for web and mobile"
     ],
     technologies: {
-      frontend: ["React", "TypeScript", "Material UI"],
-      backend: ["Node.js", "TypeScript", "AWS SDK", "Filecoin.js"],
-      devops: ["GitHub Actions", "NPM"]
+      frontend: ["Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      backend: ["Nest.js", "PostgreSQL", "Prisma", "JWT Auth"],
+      devops: ["Docker", "GitHub Actions", "AWS"]
     }
   },
   {
-    id: 5,
+    id: 3,
+    title: "Proud Citizen - Civic Engagement Platform",
+    description: "Full-stack web application promoting civic engagement and community participation",
+    image: "/images/projects/libp2p-chat.jpg",
+    tags: ["node.js", "react", "tailwind", "inginx", "docker"],
+    github: "https://github.com/Euwamahoro/proud-citizen.git",
+    liveUrl: "",
+    features: [
+      "Community forums",
+      "Civic engagement tools",
+      "Evening meetings with elders",
+      "Sponsoring",
+      "Real-time notifications"
+    ],
+    technologies: {
+      frontend: ["React", "tailwind", "Redux Toolkit"],
+      backend: ["Node.js", "Express", "MongoDB"],
+      devops: ["GitHub Actions", "Docker", "Micro"]
+    }
+  },
+  {
+    id: 4,
     title: "Hospitality EPoS",
     description: "A cross-platform Electronic Point of Sale system for hospitality businesses, enabling complete stock management and reporting.",
     image: "/images/projects/hospitality-epos.jpg",
@@ -225,7 +204,7 @@ export default function ProjectsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   {/* Project Image */}
                   <div className="relative h-64 md:h-full overflow-hidden rounded pixel-corners border-2 border-neon-blue">
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50 z-10"></div>
+                    <div className="absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50 z-10"></div>
                     <div className="w-full h-full bg-gray-800 flex items-center justify-center">
                       {/* Placeholder for project image */}
                       <FaLaptopCode className="text-neon-blue text-6xl" />

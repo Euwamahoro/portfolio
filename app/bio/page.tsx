@@ -52,18 +52,19 @@ export default function BioPage() {
               
               <div>
                 <p className="text-neon-green font-pixel mb-1">LOCATION</p>
-                <p className="text-white font-pixel text-lg">Remote</p>
+                <p className="text-white font-pixel text-lg">Remote | On-site</p>
               </div>
               
               <div>
                 <p className="text-neon-green font-pixel mb-1">LANGUAGES</p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">C#</span>
                   <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">JavaScript</span>
                   <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">TypeScript</span>
                   <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">Python</span>
-                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">Ruby</span>
-                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">Java</span>
+                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">Flutter</span>
+                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">C#</span>
+                  <span className="bg-dark-purple px-2 py-1 text-neon-yellow font-pixel text-sm">Go</span>
+
                 </div>
               </div>
             </div>
@@ -89,9 +90,9 @@ export default function BioPage() {
               </p>
               
               <p>
-                With expertise in modern JavaScript frameworks, .NET technologies, and cloud-based architectures, 
+                With expertise in modern JavaScript frameworks, and cloud-based architectures, 
                 I&apos;ve contributed to projects ranging from enterprise-level applications to cutting-edge Web3 
-                implementations. My work with Protocol Labs has deepened my understanding of decentralized 
+                implementations. My work with different freelancing projects has deepened my understanding of decentralized 
                 systems and peer-to-peer technologies.
               </p>
               
@@ -102,7 +103,7 @@ export default function BioPage() {
               </p>
               
               <p>
-                When I&apos;m not coding, I enjoy exploring new technologies, contributing to open-source projects, 
+                When I&apos;m not coding, I enjoy exploring new technologies, carrying out peer reviews, 
                 and sharing knowledge with the developer community. I believe in continuous learning and staying 
                 at the cutting edge of technological advancements.
               </p>
@@ -127,36 +128,30 @@ export default function BioPage() {
                 <p className="text-white font-pixel">B.Sc. with Honors in Software Engineering (2023 – 2025)</p>
                 <p className="text-gray-400 font-pixel mt-2">
                   Core Coursework: Algorithms and Data Structures, Web Development & Infrastructure, 
-                  Machine Learning, Leadership & Entrepreneurship
+                  Full-Stack Web Development, Leadership & Entrepreneurship
                 </p>
               </div>
               
-              <div className="border-l-2 border-neon-green pl-4">
-                <h3 className="text-neon-yellow font-arcade text-lg mb-2">Frankfurt School Blockchain Center</h3>
-                <p className="text-white font-pixel">ReFi Talents Program (2024)</p>
-                <p className="text-gray-400 font-pixel mt-2">
-                  Completed an 18-week intensive program focused on regenerative finance (ReFi), 
-                  blockchain technology, and sustainable finance
-                </p>
-              </div>
-              
-              <div className="border-l-2 border-neon-green pl-4">
-                <h3 className="text-neon-yellow font-arcade text-lg mb-2">Google Generative AI Fundamentals</h3>
-                <p className="text-white font-pixel">Kaggle (2024)</p>
-                <p className="text-gray-400 font-pixel mt-2">
-                  Hands-on course covering LLMs, generative AI applications, model fine-tuning, 
-                  and AI evaluation methods
-                </p>
-              </div>
               
               <div className="border-l-2 border-neon-green pl-4">
                 <h3 className="text-neon-yellow font-arcade text-lg mb-2">Certifications</h3>
                 <ul className="text-gray-300 font-pixel list-disc list-inside">
                   <li>IQBBA Agile Business Analysis</li>
                   <li>TMAP Quality Engineer for cross-functional teams</li>
-                  <li>ISTQB Software Testing</li>
-                  <li>ISOC Network Operation</li>
-                  <li>EOSIO Blockchain development</li>
+                  <li>DevOps - Coursera</li>
+                  <li>Terraform for absolute beginners - Coursera</li>
+                  <li>Docker - Hands on lab - Coursera</li>
+                </ul>
+              </div>
+
+              <div className="border-l-2 border-neon-green pl-4">
+                <h3 className="text-neon-yellow font-arcade text-lg mb-2">Languages</h3>
+                <ul className="text-gray-300 font-pixel list-disc list-inside">
+                  <li>English</li>
+                  <li>French</li>
+                  <li>Swahili</li>
+                  <li>Arabic</li>
+                  <li>Kinyarwanda</li>
                 </ul>
               </div>
             </div>
