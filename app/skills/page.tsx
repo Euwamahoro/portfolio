@@ -42,6 +42,7 @@ const skillCategories = [
       { name: 'NestJS', level: 75 },
       { name: 'GraphQL', level: 70 },
       { name: 'REST API Design', level: 90 },
+      {name: 'grpc', level: 80}
     ]
   },
   {
@@ -97,6 +98,20 @@ const skillCategories = [
       { name: 'HTML/CSS', level: 90 },
       { name: 'SQL', level: 80 },
       { name: 'Python', level: 70 },
+      {name: 'Dart', level: 80}
+    ]
+  },
+  {
+    id: 'devops',
+    name: 'DevOps',
+    icon: <FaDesktop className="text-2xl" />,
+    color: 'neon-blue',
+    skills: [
+      { name: 'terraform', level: 95 },
+      { name: 'docker', level: 90 },
+      { name: 'kubernet', level: 85 },
+      { name: 'Microsoft Azure', level: 95 },
+      { name: 'AWS', level: 90 },
     ]
   }
 ];
