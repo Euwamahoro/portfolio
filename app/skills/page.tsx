@@ -14,6 +14,22 @@ import {
 // Skill categories with their respective skills
 const skillCategories = [
   {
+    id: 'backend',
+    name: 'Backend',
+    icon: <FaServer className="text-2xl" />,
+    color: 'neon-green',
+    skills: [
+      { name: '.NET Core/8', level: 90 },
+      { name: 'C#', level: 90 },
+      { name: 'Node.js', level: 85 },
+      { name: 'Express', level: 80 },
+      { name: 'NestJS', level: 75 },
+      { name: 'GraphQL', level: 70 },
+      { name: 'REST API Design', level: 90 },
+      { name: 'gRPC', level: 80 }
+    ]
+  },
+  {
     id: 'frontend',
     name: 'Frontend',
     icon: <FaDesktop className="text-2xl" />,
@@ -27,22 +43,6 @@ const skillCategories = [
       { name: 'Tailwind CSS', level: 85 },
       { name: 'Redux', level: 80 },
       { name: 'Framer Motion', level: 75 },
-    ]
-  },
-  {
-    id: 'backend',
-    name: 'Backend',
-    icon: <FaServer className="text-2xl" />,
-    color: 'neon-green',
-    skills: [
-      { name: '.NET Core/8', level: 90 },
-      { name: 'C#', level: 90 },
-      { name: 'Node.js', level: 85 },
-      { name: 'Express', level: 80 },
-      { name: 'NestJS', level: 75 },
-      { name: 'GraphQL', level: 70 },
-      { name: 'REST API Design', level: 90 },
-      {name: 'grpc', level: 80}
     ]
   },
   {
@@ -60,16 +60,16 @@ const skillCategories = [
     ]
   },
   {
-    id: 'mobile',
-    name: 'Mobile',
-    icon: <FaMobileAlt className="text-2xl" />,
-    color: 'neon-pink',
+    id: 'devops',
+    name: 'DevOps & Cloud',
+    icon: <FaDesktop className="text-2xl" />,
+    color: 'neon-blue',
     skills: [
-      { name: 'React Native', level: 80 },
-      { name: 'Flutter', level: 95 },
-      { name: 'Expo', level: 75 },
-      { name: 'Mobile UI Design', level: 70 },
-      { name: 'App Performance', level: 65 },
+      { name: 'Terraform', level: 95 },
+      { name: 'Docker', level: 90 },
+      { name: 'Kubernetes', level: 85 },
+      { name: 'Microsoft Azure', level: 95 },
+      { name: 'AWS', level: 90 },
     ]
   },
   {
@@ -98,22 +98,35 @@ const skillCategories = [
       { name: 'HTML/CSS', level: 90 },
       { name: 'SQL', level: 80 },
       { name: 'Python', level: 70 },
-      {name: 'Dart', level: 80}
+      { name: 'Dart', level: 80 }
     ]
   },
   {
-    id: 'devops',
-    name: 'DevOps',
-    icon: <FaDesktop className="text-2xl" />,
-    color: 'neon-blue',
+    id: 'mobile',
+    name: 'Mobile',
+    icon: <FaMobileAlt className="text-2xl" />,
+    color: 'neon-pink',
     skills: [
-      { name: 'terraform', level: 95 },
-      { name: 'docker', level: 90 },
-      { name: 'kubernet', level: 85 },
-      { name: 'Microsoft Azure', level: 95 },
-      { name: 'AWS', level: 90 },
+      { name: 'React Native', level: 80 },
+      { name: 'Flutter', level: 95 },
+      { name: 'Expo', level: 75 },
+      { name: 'Mobile UI Design', level: 70 },
+      { name: 'App Performance', level: 65 },
     ]
   }
+];
+
+
+// Engineering practices backed by projects, experience and certifications
+const coreCompetencies = [
+  { title: 'Full SDLC delivery', detail: 'Requirements, specifications, build, test, deployment and support' },
+  { title: 'APIs & integration', detail: 'REST API design and integration with partner and third-party systems' },
+  { title: 'Secure coding', detail: 'JWT authentication, access control and secure application design' },
+  { title: 'Testing & quality', detail: 'API testing with Postman; TMAP Quality Engineer certified' },
+  { title: 'Agile delivery', detail: 'Agile teams, code reviews; IQBBA Agile Business Analysis certified' },
+  { title: 'Deployment & CI/CD', detail: 'Git, GitHub Actions, Docker, Azure and AWS' },
+  { title: 'Process digitalization', detail: 'Turning manual workflows into online, mobile-friendly applications' },
+  { title: 'Documentation & support', detail: 'Technical documentation, user support and knowledge sharing' },
 ];
 
 export default function SkillsPage() {
@@ -255,6 +268,23 @@ export default function SkillsPage() {
             </div>
           </motion.div>
         )}
+        {/* Core engineering competencies */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="max-w-4xl mx-auto mt-12 bg-black bg-opacity-70 p-6 rounded pixel-corners border-2 border-neon-green"
+        >
+          <h2 className="text-2xl font-arcade text-neon-green mb-6">CORE COMPETENCIES</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {coreCompetencies.map((item) => (
+              <div key={item.title} className="border-l-2 border-neon-green pl-4">
+                <h3 className="text-neon-yellow font-arcade text-sm mb-1">{item.title}</h3>
+                <p className="text-gray-300 font-pixel">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </div>
   );

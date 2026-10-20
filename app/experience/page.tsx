@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     id: 2,
-    title: " Full-Stack Developer ",
+    title: "Full-Stack Developer",
     company: "Freelance",
     location: "Remote",
     period: "January 2025 – present",

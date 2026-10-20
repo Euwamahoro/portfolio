@@ -4,9 +4,9 @@ import Layout from './components/layout/Layout';
 import { ThemeProvider } from './components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: "Enock Uwamahoro | Software Engineer & Creative Technologist",
-  description: "Personal portfolio of Enock Uwamahoro, a Software Engineer specializing in Full-Stack Development, Web3, and Creative Technology.",
-  keywords: "Enock Uwamahoro, Software Engineer, Full-Stack Developer, Web3, Protocol Labs, Next.js, React, .NET",
+  title: "Enock Uwamahoro | Software & Application Engineer",
+  description: "Portfolio of Enock Uwamahoro, a Software Engineer building secure, production-ready web applications, APIs and system integrations, from requirements to deployment and support.",
+  keywords: "Enock Uwamahoro, Software Engineer, Application Engineer, Full-Stack Developer, REST APIs, System Integration, SDLC, Agile, Docker, CI/CD, Azure, AWS, React, TypeScript, .NET, Kigali, Rwanda",
 };
 
 export default function RootLayout({

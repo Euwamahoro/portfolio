@@ -30,7 +30,7 @@ const Footer = () => {
               Enock Uwamahoro
             </motion.h3>
             <p className="text-sm font-pixel dark:text-gray-400 text-gray-600">
-              Software Engineer & Creative Technologist
+              Software & Application Engineer
             </p>
           </div>
           
