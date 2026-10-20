@@ -57,7 +57,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              SOFTWARE ENGINEER
+              SOFTWARE & APPLICATION ENGINEER
             </motion.h2>
 
             <motion.div
@@ -80,8 +80,8 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 1.2 }}
               className="text-sm font-pixel text-gray-400"
             >
-              © {new Date().getFullYear()} | FULL-STACK DEVELOPER | CREATIVE
-              TECHNOLOGIST
+              © {new Date().getFullYear()} | FULL-STACK DEVELOPER | API & SYSTEMS
+              INTEGRATION
             </motion.div>
           </div>
         ) : (

@@ -77,7 +77,7 @@ export default function ContactPage() {
       icon: <FaEnvelope className="text-2xl" />,
       title: "Email",
       value: "enockdev01@gmail.com",
-      action: "mailto:enockdev016@gmail.com",
+      action: "mailto:enockdev01@gmail.com",
       color: "neon-blue",
     },
     {
@@ -97,7 +97,7 @@ export default function ContactPage() {
     {
       icon: <FaMapMarkerAlt className="text-2xl" />,
       title: "Location",
-      value: "Heart of Africa",
+      value: "Kigali, Rwanda",
       action: "https://maps.google.com/?q=Kigali, Rwanda",
       color: "neon-pink",
     },
@@ -288,7 +288,7 @@ export default function ContactPage() {
                     disabled={formStatus === "submitting"}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className={`px-8 py-3 font-arcade text-black rounded pixel-corners transition-all ${
+                    className={`px-8 py-3 font-arcade text-white rounded pixel-corners transition-all ${
                       formStatus === "submitting"
                         ? "bg-gray-500 cursor-not-allowed"
                         : formStatus === "success"

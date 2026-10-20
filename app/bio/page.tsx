@@ -42,17 +42,17 @@ export default function BioPage() {
               
               <div>
                 <p className="text-neon-green font-pixel mb-1">CLASS</p>
-                <p className="text-white font-pixel text-lg">Software Engineer</p>
+                <p className="text-white font-pixel text-lg">Software & Application Engineer</p>
               </div>
               
               <div>
                 <p className="text-neon-green font-pixel mb-1">SPECIALIZATION</p>
-                <p className="text-white font-pixel text-lg">Full-Stack Development</p>
+                <p className="text-white font-pixel text-lg">Full-Stack Development, APIs & Integration</p>
               </div>
               
               <div>
                 <p className="text-neon-green font-pixel mb-1">LOCATION</p>
-                <p className="text-white font-pixel text-lg">Remote | On-site</p>
+                <p className="text-white font-pixel text-lg">Rwanda | On-site or Remote</p>
               </div>
               
               <div>
@@ -84,28 +84,34 @@ export default function BioPage() {
 
             <div className="space-y-6 font-pixel text-gray-200">
               <p>
-                I am an experienced Full-Stack Developer with a robust background in designing secure, 
-                scalable web applications and distributed systems. My journey in software development 
-                has been driven by a passion for creating innovative solutions that solve real-world problems.
+                I am a Software Engineer with over three years of experience building and supporting
+                web applications and APIs used in production, and I currently serve as CTO and Team Lead
+                at UbuntuNow. I work across the full software
+                development life cycle: meeting users to understand their process, turning it into
+                requirements and specifications, building and testing the solution, deploying it,
+                and supporting it afterwards.
               </p>
-              
+
               <p>
-                With expertise in modern JavaScript frameworks, and cloud-based architectures, 
-                I&apos;ve contributed to projects ranging from enterprise-level applications to cutting-edge Web3 
-                implementations. My work with different freelancing projects has deepened my understanding of decentralized 
-                systems and peer-to-peer technologies.
+                My focus is on secure, maintainable systems that connect with each other. I design
+                REST APIs, integrate applications with third-party and partner systems, and use
+                JWT-based authentication and access control. I have delivered platforms backed by
+                relational databases such as PostgreSQL and SQL Server, and I deploy with Git,
+                CI/CD pipelines, Docker and cloud services on Azure and AWS.
               </p>
-              
+
               <p>
-                I&apos;m recognized for delivering client-oriented, high-quality solutions and leading cross-functional 
-                teams in agile environments. My approach combines technical excellence with creative problem-solving, 
-                always keeping the end-user experience at the forefront of development decisions.
+                I work in Agile teams, write clean and testable code, review the code of
+                teammates, and test APIs with tools like Postman. I hold IQBBA Agile Business
+                Analysis and TMAP Quality Engineer certifications. I also enjoy replacing manual,
+                paper-based processes with online workflows that work on computer and mobile.
               </p>
-              
+
               <p>
-                When I&apos;m not coding, I enjoy exploring new technologies, carrying out peer reviews, 
-                and sharing knowledge with the developer community. I believe in continuous learning and staying 
-                at the cutting edge of technological advancements.
+                I document what I build, support users courteously, and share knowledge with the
+                people I work with, including external partners and freelance clients. I
+                communicate in English, French and Kinyarwanda, and I keep learning new technologies,
+                including AI tools, to find better ways of working.
               </p>
             </div>
           </motion.div>
