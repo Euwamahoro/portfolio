@@ -85,7 +85,8 @@ export default function BioPage() {
             <div className="space-y-6 font-pixel text-gray-200">
               <p>
                 I am a Software Engineer with over three years of experience building and supporting
-                web applications and APIs used in production. I work across the full software
+                web applications and APIs used in production, and I currently serve as CTO and Team Lead
+                at UbuntuNow. I work across the full software
                 development life cycle: meeting users to understand their process, turning it into
                 requirements and specifications, building and testing the solution, deploying it,
                 and supporting it afterwards.

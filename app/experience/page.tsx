@@ -6,6 +6,18 @@ import { FaBriefcase, FaBuilding, FaCalendarAlt, FaMapMarkerAlt, FaTrophy } from
 
 const experiences = [
   {
+    id: 3,
+    title: "CTO & Team Lead",
+    company: "UbuntuNow",
+    location: "Rwanda",
+    period: "Present",
+    achievements: [
+      "Leading the engineering team and owning the technical direction of the company's products",
+      "Guiding the team through the full software development life cycle, from requirements to deployment and support",
+      "Reviewing code and mentoring team members to keep quality, security and delivery standards high"
+    ]
+  },
+  {
     id: 1,
     title: "Software Engineer",
     company: "Ironji",
